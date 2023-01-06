@@ -1,5 +1,5 @@
 
-# How to set a MySQL database server in Linux
+# How to install a MySQL database server in Linux
 
 Install wget in your system first, We are going to download .deb package because debian linux has MariaDB database server instead of MySQL database server
 ```bash
@@ -32,17 +32,17 @@ For check the version,
    $ mysql --version
 ```
 You will have a output like this
-<br>
+<br><br>
 ![App Screenshot](https://github.com/sharfuzzaman/set_up_MySQL_database_server_linux/blob/main/mysql_version.png)
-<br>
+<br><br>
 After that check the the MySQL server status,
 ```bash
    $ sudo service mysql status
 ```
 After run this command it will look like this
-<br>
+<br><br>
 ![App Screenshot](https://github.com/sharfuzzaman/set_up_MySQL_database_server_linux/blob/main/mysql_status.png)
-<br>
+<br><br>
 If you find the output like this, Hurray!! our MySQl database server is successfully installed.
 
 #### For secure installation
